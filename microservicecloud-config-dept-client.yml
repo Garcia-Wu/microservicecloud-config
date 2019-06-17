@@ -7,7 +7,7 @@
 server:
   port: 8001
 spring:
-   profile: dev
+   profiles: dev
    application:
     name: microservicecloud-config-dept-client                 # 应用名称，注册进eureka时会使用该名称（自动转换为大写）
    datasource:
@@ -45,7 +45,7 @@ info:
 server:
   port: 8001
 spring:
-   profile: test
+   profiles: test
    application:
     name: microservicecloud-config-dept-client                 # 应用名称，注册进eureka时会使用该名称（自动转换为大写）
    datasource:
