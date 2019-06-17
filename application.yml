@@ -13,4 +13,5 @@ spring:
    application:
       name: microservicecloud-config-jx-test
 
+# 注意配置分隔符为“---”
 # 注意保存为UTF-8格式，否则中文乱码
